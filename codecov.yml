@@ -16,8 +16,8 @@ parsers:
 
 comment:
   layout: "reach,diff,flags,files,footer"
-  behavior: default
-  require_changes: no
+  behavior: once
+  require_changes: yes
 
 ignore:
   - "test/"
