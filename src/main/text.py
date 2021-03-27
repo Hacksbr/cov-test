@@ -10,5 +10,5 @@ def text_xxxx(a):
     return a * 4
 
 
-def text(a):
-    return a
+# def text(a):
+#     return a
