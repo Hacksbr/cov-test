@@ -1,5 +1,5 @@
-def text_xx(a):
-    return a * 2
+# def text_xx(a):
+#     return a * 2
 
 
 def text_xxx(a):
