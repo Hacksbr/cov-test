@@ -1,5 +1,6 @@
 # Cov Test
 
+[![codecov](https://codecov.io/gh/Hacksbr/cov-test/branch/main/graph/badge.svg?token=3YVKHF2eyl)](https://codecov.io/gh/Hacksbr/cov-test)
 
 ## License
 
