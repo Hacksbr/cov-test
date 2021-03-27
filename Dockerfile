@@ -3,7 +3,10 @@ FROM python:3.9.2-slim-buster
 ENV PYTHONUNBUFFERED 1
 
 # Install prerequisites
-RUN apt-get update && apt-get install -y curl
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y curl && \
+    apt-get install -y git
 
 RUN pip install --upgrade pip
 
