@@ -5,8 +5,7 @@ ENV PYTHONUNBUFFERED 1
 # Install prerequisites
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y curl && \
-    apt-get install -y git
+    apt-get install -y curl curl git mercurial
 
 RUN pip install --upgrade pip
 
